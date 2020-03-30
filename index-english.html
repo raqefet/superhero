@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>She Codes Super League</title>
+    <link rel="stylesheet" href="styles_eng.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <img class="header_img" src="images\3f238a059a9533b9bde48c2a9f8c8de2e023414b.jpg" alt="header-picture">
+    <div class="header">
+      <h1>Join Us Now</h1>
+      <h2>The She Codes Superhero League</h2>
+    </div>
+    <div class="join-form">
+      <form class="signup_form" action="index.html" method="post">
+        <div class="form-group">
+          <label for="name">Your Name:</label>
+          <input type="text" placeholder="Enter Your Name Here" autocomplete="on" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email:</label>
+          <input type="email" placeholder="Enter Your Email Here" autocomplete="on" required>
+        </div>
+        <div class="form-group">
+          <label for="age">Date of Birth:</label>
+            <input type="date" name="birthdate" value="" required>
+        </div>
+        <div class="form-group">
+          <p>How did you hear about us?</p>
+          <input type="checkbox" id="checkchoice1" name="find-out">
+          <label for="checkchoice1">Through Facebook</label><br>
+          <input type="checkbox" id="checkchoice2" name="find-out">
+          <label for="checkchoice2">Through a friend</label><br>
+          <input type="checkbox" id="checkchoice3" name="find-out">
+          <label for="checkchoice3">On the news</label><br>
+          <input type="checkbox" id="checkchoice4" name="find-out">
+          <label for="checkchoice4">Other:</label>
+          <input type="text" id="otherValue" name="other" size="20">
+        </div>
+        <div class="form-group">
+          <p>What is your superpower?</p>
+          <input type="radio" id="power1" name="superpower" required>
+          <label for="power1">Telekinesis</label><br>
+          <input type="radio" id="power2" name="superpower" required>
+          <label for="power2">Flying</label><br>
+          <input type="radio" id="power3" name="superpower" required>
+          <label for="power3">Super Strength</label>
+        </div>
+        <div class="form-group">
+          <p>Something else you want to tell us about yourself?</p>
+          <input type="text" name="more" size="30" maxlength="100">
+        </div>
+        <div class="form-group">
+          <input type="submit" id="submit_btn" name="submitbtn" value="Submit">
+        </div>
+      </form>
+
+    </div>
+    <div class="container">
+      <p>Change Language</p>
+      <ul>
+        <li><a href="index-english.html">English</a></li>
+        <li><a href="index-hebrew.html">עברית</a></li>
+      </ul>
+    </div>
+    <footer>
+    Created By Raqefet
+    </footer>
+  </body>
+</html>

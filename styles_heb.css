@@ -1,0 +1,89 @@
+body {
+  background-image: url('istockphoto-1173325443-1024x1024.jpg');
+  background-color: #fff6da;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: scroll;
+  text-align: center;
+  font-family: 'Assistant', sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 20px auto 15px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 15px auto 20px;
+  padding-bottom: 8px;
+  letter-spacing: 0.0625rem;
+}
+
+footer {
+  font-family: 'Oswald', sans-serif;
+}
+
+.header_img {
+  width: 600px;
+  height: auto;
+}
+
+.header {
+  width: 600px;
+  height: auto;
+  background-color: #d63447;
+  margin: auto;
+}
+
+.join-form {
+  width: 600px;
+  height: 700px;
+  background-color: #042f4b;
+  margin: auto;
+  text-align: right;
+  font-size: 1.25rem;
+  color: white;
+  position: relative;
+  direction: rtl;
+}
+
+.form-group {
+  padding-right: 100px;
+}
+
+.container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  direction: ltr;
+  font-family: 'Oswald', sans-serif;
+}
+
+#submit_btn {
+  position: absolute;
+  left: 234.575px;
+  top: 600px;
+	box-shadow: 0 10px 14px -7px #1564ad;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Oswald', sans-serif;
+	font-size:24px;
+	font-weight:bold;
+  letter-spacing: 1.5px;
+	padding:10px 28px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #528ecc;
+}
+#submit_btn:active {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+
+input:required {
+  border: 1px solid red;
+}
